@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://obadahakram132.github.io/Avvera-Perfume/sitemap.xml
