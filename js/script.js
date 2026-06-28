@@ -52,7 +52,7 @@
 
     const PRODUCTS = [
         { id: 1, title: 'Avvera Her', type: 'عطر فاخر', img: 'images/products/product1.webp', ingredient: 'images/ingredients/ingredient1.webp', price: '', tagline: 'A Touch of Elegance', desc: 'عطر يجمع بين الفخامة والأناقة، برائحة تدوم طويلاً. مزيج مثالي من العود والعنبر يمنحك حضوراً لا يُنسى.' },
-        { id: 2, title: 'مسك الليالي', type: 'عطر مميز', img: 'images/products/product2.webp', ingredient: 'images/ingredients/ingredient2.webp', price: '', tagline: 'The Essence of Luxury', desc: 'عطر شرقي بنفحات المسك والعنبر، يمنحك إحساساً بالدفء والتميز. مناسب لجميع الأوقات.' },
+        { id: 2, title: 'Avera Khamra', type: 'عطر مميز', img: 'images/products/product2.webp', ingredient: 'images/ingredients/ingredient2.webp', price: '', tagline: 'The Essence of Luxury', desc: 'عطر شرقي بنفحات المسك والعنبر، يمنحك إحساساً بالدفء والتميز. مناسب لجميع الأوقات.' },
         { id: 3, title: 'Avvera Special', type: 'عطر كلاسيكي', img: 'images/products/product3.webp', ingredient: null, price: '', tagline: 'Timeless Beauty', desc: 'عطر كلاسيكي بنفحات الحمضيات والأزهار، منعش وحيوي يمنحك انتعاشاً يدوم طوال اليوم.' },
         { id: 4, title: 'شرق العطور', type: 'عطر شرقي', img: 'images/products/product4.webp', ingredient: null, price: '', tagline: 'Eastern Charm', desc: 'عطر شرقي فاخر بلمسات من المسك والعنبر. رائحة دافئة وجذابة تلفت الأنظار.' },
         { id: 5, title: 'زهرة الياسمين', type: 'عطر زهري', img: 'images/products/product5.webp', ingredient: null, price: '', tagline: 'Floral Dream', desc: 'عطر زهري منعش بمزيج من الورد والياسمين. يمنحك إحساساً بالانتعاش والأنوثة.' },
