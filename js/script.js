@@ -51,14 +51,14 @@
     const INSTA_URL = 'https://www.instagram.com/avvera_perfume';
 
     const PRODUCTS = [
-        { id: 1, title: 'أڤيرا رويال', type: 'عطر فاخر', img: 'images/products/product1.webp', ingredient: 'images/ingredients/ingredient1.webp', price: '', tagline: 'A Touch of Elegance', desc: 'عطر يجمع بين الفخامة والأناقة، برائحة تدوم طويلاً. مزيج مثالي من العود والعنبر يمنحك حضوراً لا يُنسى.' },
+        { id: 1, title: 'Avvera Her', type: 'عطر فاخر', img: 'images/products/product1.webp', ingredient: 'images/ingredients/ingredient1.webp', price: '', tagline: 'A Touch of Elegance', desc: 'عطر يجمع بين الفخامة والأناقة، برائحة تدوم طويلاً. مزيج مثالي من العود والعنبر يمنحك حضوراً لا يُنسى.' },
         { id: 2, title: 'مسك الليالي', type: 'عطر مميز', img: 'images/products/product2.webp', ingredient: 'images/ingredients/ingredient2.webp', price: '', tagline: 'The Essence of Luxury', desc: 'عطر شرقي بنفحات المسك والعنبر، يمنحك إحساساً بالدفء والتميز. مناسب لجميع الأوقات.' },
-        { id: 3, title: 'نسيم الفجر', type: 'عطر كلاسيكي', img: 'images/products/product3.webp', ingredient: null, price: '', tagline: 'Timeless Beauty', desc: 'عطر كلاسيكي بنفحات الحمضيات والأزهار، منعش وحيوي يمنحك انتعاشاً يدوم طوال اليوم.' },
+        { id: 3, title: 'Avvera Special', type: 'عطر كلاسيكي', img: 'images/products/product3.webp', ingredient: null, price: '', tagline: 'Timeless Beauty', desc: 'عطر كلاسيكي بنفحات الحمضيات والأزهار، منعش وحيوي يمنحك انتعاشاً يدوم طوال اليوم.' },
         { id: 4, title: 'شرق العطور', type: 'عطر شرقي', img: 'images/products/product4.webp', ingredient: null, price: '', tagline: 'Eastern Charm', desc: 'عطر شرقي فاخر بلمسات من المسك والعنبر. رائحة دافئة وجذابة تلفت الأنظار.' },
         { id: 5, title: 'زهرة الياسمين', type: 'عطر زهري', img: 'images/products/product5.webp', ingredient: null, price: '', tagline: 'Floral Dream', desc: 'عطر زهري منعش بمزيج من الورد والياسمين. يمنحك إحساساً بالانتعاش والأنوثة.' },
         { id: 6, title: 'الجاذبية', type: 'عطر جذاب', img: 'images/products/product6.webp', ingredient: null, price: '', tagline: 'Bold & Beautiful', desc: 'عطر جذاب بنفحات خشبية وزهرية. يجمع بين القوة والرقة في توليفة فريدة.' },
-        { id: 7, title: 'غموض الغابة', type: 'عطر خشبي', img: 'images/products/product7.webp', ingredient: null, price: '', tagline: 'Woody Mystique', desc: 'عطر خشبي برائحة العود والجلد. مثالي للرجال الذين يبحثون عن التميز والثقة.' },
-        { id: 8, title: 'التاج الملكي', type: 'عطر ملكي', img: 'images/products/product8.jpg', ingredient: null, price: '', tagline: 'Royal Signature', desc: 'عطر ملكي فاخر يجمع بين أرقى المكونات العالمية. تجربة عطرية لا تُضاهى.' },
+        { id: 7, title: 'Avvera Bomb', type: 'عطر خشبي', img: 'images/products/product7.webp', ingredient: null, price: '', tagline: 'Woody Mystique', desc: 'عطر خشبي برائحة العود والجلد. مثالي للرجال الذين يبحثون عن التميز والثقة.' },
+        { id: 8, title: 'Avvera Intense', type: 'عطر ملكي', img: 'images/products/product8.jpg', ingredient: null, price: '', tagline: 'Royal Signature', desc: 'عطر ملكي فاخر يجمع بين أرقى المكونات العالمية. تجربة عطرية لا تُضاهى.' },
     ];
 
     function renderProducts() {
