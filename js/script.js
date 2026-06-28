@@ -51,14 +51,14 @@
     const INSTA_URL = 'https://www.instagram.com/avvera_perfume';
 
     const PRODUCTS = [
-        { id: 1, title: 'العطر الأول', type: 'عطر فاخر', img: 'images/products/product1.webp', ingredient: 'images/ingredients/ingredient1.webp', price: '25 JOD', tagline: 'A Touch of Elegance', desc: 'عطر يجمع بين الفخامة والأناقة، برائحة تدوم طويلاً. مزيج مثالي من العود والعنبر يمنحك حضوراً لا يُنسى.' },
-        { id: 2, title: 'العطر الثاني', type: 'عطر مميز', img: 'images/products/product2.webp', ingredient: 'images/ingredients/ingredient2.webp', price: '30 JOD', tagline: 'The Essence of Luxury', desc: 'عطر شرقي بنفحات المسك والعنبر، يمنحك إحساساً بالدفء والتميز. مناسب لجميع الأوقات.' },
-        { id: 3, title: 'العطر الثالث', type: 'عطر كلاسيكي', img: 'images/products/product3.webp', ingredient: null, price: '22 JOD', tagline: 'Timeless Beauty', desc: 'عطر كلاسيكي بنفحات الحمضيات والأزهار، منعش وحيوي يمنحك انتعاشاً يدوم طوال اليوم.' },
-        { id: 4, title: 'العطر الرابع', type: 'عطر شرقي', img: 'images/products/product4.webp', ingredient: null, price: '28 JOD', tagline: 'Eastern Charm', desc: 'عطر شرقي فاخر بلمسات من المسك والعنبر. رائحة دافئة وجذابة تلفت الأنظار.' },
-        { id: 5, title: 'العطر الخامس', type: 'عطر زهري', img: 'images/products/product5.webp', ingredient: null, price: '26 JOD', tagline: 'Floral Dream', desc: 'عطر زهري منعش بمزيج من الورد والياسمين. يمنحك إحساساً بالانتعاش والأنوثة.' },
-        { id: 6, title: 'العطر السادس', type: 'عطر جذاب', img: 'images/products/product6.webp', ingredient: null, price: '32 JOD', tagline: 'Bold & Beautiful', desc: 'عطر جذاب بنفحات خشبية وزهرية. يجمع بين القوة والرقة في توليفة فريدة.' },
-        { id: 7, title: 'العطر السابع', type: 'عطر خشبي', img: 'images/products/product7.webp', ingredient: null, price: '27 JOD', tagline: 'Woody Mystique', desc: 'عطر خشبي برائحة العود والجلد. مثالي للرجال الذين يبحثون عن التميز والثقة.' },
-        { id: 8, title: 'العطر الثامن', type: 'عطر ملكي', img: 'images/products/product8.jpg', ingredient: null, price: '35 JOD', tagline: 'Royal Signature', desc: 'عطر ملكي فاخر يجمع بين أرقى المكونات العالمية. تجربة عطرية لا تُضاهى.' },
+        { id: 1, title: 'أڤيرا رويال', type: 'عطر فاخر', img: 'images/products/product1.webp', ingredient: 'images/ingredients/ingredient1.webp', price: '', tagline: 'A Touch of Elegance', desc: 'عطر يجمع بين الفخامة والأناقة، برائحة تدوم طويلاً. مزيج مثالي من العود والعنبر يمنحك حضوراً لا يُنسى.' },
+        { id: 2, title: 'مسك الليالي', type: 'عطر مميز', img: 'images/products/product2.webp', ingredient: 'images/ingredients/ingredient2.webp', price: '', tagline: 'The Essence of Luxury', desc: 'عطر شرقي بنفحات المسك والعنبر، يمنحك إحساساً بالدفء والتميز. مناسب لجميع الأوقات.' },
+        { id: 3, title: 'نسيم الفجر', type: 'عطر كلاسيكي', img: 'images/products/product3.webp', ingredient: null, price: '', tagline: 'Timeless Beauty', desc: 'عطر كلاسيكي بنفحات الحمضيات والأزهار، منعش وحيوي يمنحك انتعاشاً يدوم طوال اليوم.' },
+        { id: 4, title: 'شرق العطور', type: 'عطر شرقي', img: 'images/products/product4.webp', ingredient: null, price: '', tagline: 'Eastern Charm', desc: 'عطر شرقي فاخر بلمسات من المسك والعنبر. رائحة دافئة وجذابة تلفت الأنظار.' },
+        { id: 5, title: 'زهرة الياسمين', type: 'عطر زهري', img: 'images/products/product5.webp', ingredient: null, price: '', tagline: 'Floral Dream', desc: 'عطر زهري منعش بمزيج من الورد والياسمين. يمنحك إحساساً بالانتعاش والأنوثة.' },
+        { id: 6, title: 'الجاذبية', type: 'عطر جذاب', img: 'images/products/product6.webp', ingredient: null, price: '', tagline: 'Bold & Beautiful', desc: 'عطر جذاب بنفحات خشبية وزهرية. يجمع بين القوة والرقة في توليفة فريدة.' },
+        { id: 7, title: 'غموض الغابة', type: 'عطر خشبي', img: 'images/products/product7.webp', ingredient: null, price: '', tagline: 'Woody Mystique', desc: 'عطر خشبي برائحة العود والجلد. مثالي للرجال الذين يبحثون عن التميز والثقة.' },
+        { id: 8, title: 'التاج الملكي', type: 'عطر ملكي', img: 'images/products/product8.jpg', ingredient: null, price: '', tagline: 'Royal Signature', desc: 'عطر ملكي فاخر يجمع بين أرقى المكونات العالمية. تجربة عطرية لا تُضاهى.' },
     ];
 
     function renderProducts() {
@@ -74,7 +74,6 @@
                 </div>
                 <div class="product-card-body">
                     <h3>${p.title}</h3>
-                    <span class="product-type">${p.price}</span>
                     <span class="product-tagline">${p.tagline}</span>
                 </div>
             </div>
@@ -98,7 +97,7 @@
         document.getElementById('modalImg').alt = product.title;
         document.getElementById('modalTag').textContent = product.type;
         document.getElementById('modalTitle').textContent = product.title;
-        document.getElementById('modalPrice').textContent = `${product.price} — ${product.tagline}`;
+        document.getElementById('modalPrice').textContent = product.tagline;
         document.getElementById('modalDesc').textContent = product.desc;
 
         const ingredientSection = document.getElementById('modalIngredient');
@@ -164,18 +163,26 @@
         });
     });
 
-    document.querySelectorAll('.video-card:not(.featured):not(.video-special)').forEach(card => {
-        const v = card.querySelector('video');
-        v.style.cursor = 'pointer';
+    document.querySelectorAll('.video-card video').forEach(v => {
+        const card = v.closest('.video-card');
+        const isSpecial = card?.classList.contains('featured') || card?.classList.contains('video-special');
         const playVideo = () => {
-            if (v.paused) { v.play(); card.classList.add('playing'); }
+            if (v.paused) { v.play(); if (card) card.classList.add('playing'); }
         };
-        v.addEventListener('click', playVideo);
+        v.addEventListener('click', (e) => { if (v.paused) playVideo(); });
         const videoObserver = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
                     v.preload = 'auto';
-                    setTimeout(() => { v.play().then(() => card.classList.add('playing')).catch(() => {}); }, 300);
+                    setTimeout(() => {
+                        v.play().then(() => {
+                            if (card) card.classList.add('playing');
+                            if (isSpecial && v.muted) {
+                                const wrapper = card?.querySelector('.video-wrapper');
+                                if (wrapper) wrapper.querySelector('.unmute-btn')?.classList.remove('hidden');
+                            }
+                        }).catch(() => {});
+                    }, 300);
                     videoObserver.unobserve(v);
                 }
             });

@@ -2,7 +2,7 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
     <meta name="description" content="Avvera Perfume - عطور فاخرة تناسب كل الأوقات. اكتشف مجموعتنا المميزة من العطور.">
     <meta name="keywords" content="عطور, افيرا, Avvera, perfume, عطور فاخرة, متجر عطور">
     <meta http-equiv="X-Content-Type-Options" content="nosniff">
@@ -13,6 +13,8 @@
     <link rel="alternate icon" href="images/favicon.png">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.5.1/css/all.css">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -151,7 +153,7 @@
             <div class="videos-grid">
                 <div class="video-card featured">
                     <div class="video-wrapper">
-                        <video autoplay muted loop playsinline poster="images/products/product1.webp" class="sound-video">
+                        <video muted loop playsinline poster="images/products/product1.webp" preload="none" class="sound-video">
                             <source src="images/videos/promo.mp4" type="video/mp4">
                         </video>
                         <button class="unmute-btn" aria-label="تشغيل الصوت">
@@ -171,7 +173,7 @@
                     </video>
                     <div class="play-hint"><i class="fas fa-play"></i></div>
                     <div class="video-info">
-                        <h4>العطر الرابع</h4>
+                        <h4>عطر شرق العطور - لمسة شرقية</h4>
                     </div>
                 </div>
                 <div class="video-card">
@@ -180,7 +182,7 @@
                     </video>
                     <div class="play-hint"><i class="fas fa-play"></i></div>
                     <div class="video-info">
-                        <h4>العطر الخامس</h4>
+                        <h4>عطر زهرة الياسمين - نفحات زهرية</h4>
                     </div>
                 </div>
                 <div class="video-card">
@@ -189,7 +191,7 @@
                     </video>
                     <div class="play-hint"><i class="fas fa-play"></i></div>
                     <div class="video-info">
-                        <h4>العطر السادس</h4>
+                        <h4>عطر الجاذبية - حضور لا يُقاوم</h4>
                     </div>
                 </div>
                 <div class="video-card">
@@ -198,7 +200,7 @@
                     </video>
                     <div class="play-hint"><i class="fas fa-play"></i></div>
                     <div class="video-info">
-                        <h4>العطر الثامن</h4>
+                        <h4>عطر التاج الملكي - فخامة مطلقة</h4>
                     </div>
                 </div>
                 <div class="video-card">
@@ -207,12 +209,12 @@
                     </video>
                     <div class="play-hint"><i class="fas fa-play"></i></div>
                     <div class="video-info">
-                        <h4>فيديو عطر</h4>
+                        <h4>عطر أڤيرا رويال - المزيج الساحر</h4>
                     </div>
                 </div>
                 <div class="video-card video-special">
                     <div class="video-wrapper">
-                        <video autoplay muted loop playsinline poster="images/products/product4.webp" class="sound-video">
+                        <video muted loop playsinline poster="images/products/product4.webp" preload="none" class="sound-video">
                             <source src="images/videos/product4-video2.mp4" type="video/mp4">
                         </video>
                         <button class="unmute-btn" aria-label="تشغيل الصوت">
@@ -223,7 +225,7 @@
                         </button>
                     </div>
                     <div class="video-info">
-                        <h4>العطر الرابع - فيديو إضافي</h4>
+                        <h4>عطر شرق العطور - تجربة كاملة</h4>
                     </div>
                 </div>
             </div>
@@ -396,6 +398,7 @@
         <i class="fas fa-arrow-up"></i>
     </button>
 
+    <script>document.addEventListener('DOMContentLoaded',function(){var t=document.createElement('span');t.className='fas';t.style.display='none';document.body.appendChild(t);var i=window.getComputedStyle(t).fontFamily;document.body.removeChild(t);if(i.indexOf('Font Awesome')===-1){var l=document.createElement('link');l.rel='stylesheet';l.href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css';document.head.appendChild(l)}});</script>
     <script src="js/script.js"></script>
 </body>
 </html>
